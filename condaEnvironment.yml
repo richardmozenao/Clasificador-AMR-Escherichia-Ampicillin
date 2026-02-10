@@ -1,0 +1,22 @@
+name: p310
+channels:
+  - nvidia
+  - conda-forge
+  - pytorch
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - biopython
+  - pandas
+  - scikit-learn
+  - pytorch
+  - pytorch-cuda
+  - py-xgboost-gpu
+  - jupyter
+  - ipykernel
+  - cupy
+  - hyperopt
+  - seaborn
+  - pyrodigal
+  - shap
